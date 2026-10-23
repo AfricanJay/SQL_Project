@@ -23,3 +23,14 @@ can use multiple columns in order by, separate with column
 remember, cannot use an aggregation in a where clause, such as 'demand_count' which is a count()
 
 Have to use 'having after group by
+
+To do a read_me, navigate to your read_me on the sql project and copy or follow. Click the code editor to see the mark down.
+Pound signs, square brakets and forward slashes for links
+
+to format something as a code block, open with three back ticks
+
+```
+
+and close out
+
+```
