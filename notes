@@ -2,4 +2,24 @@ Click source control and connect your github account.
 
 Enter your username and email byt lcicking terminal new terminal
 
-push main and branc
+push main and branch.
+
+How to push? Simply make changes and go to source control and commit. You could use terminal to commit spefici folders.
+
+how to pull from vs code? simply navigate to source control, clokc three dots, click 'pull, push' then 'pull'
+
+..careful connecting: Connection name: anything you like, e.g. sql_course.
+Connection group: leave blank.
+Connect using: choose Server and Port.
+Server Address: localhost (or 127.0.0.1) if Postgres runs on your own computer.
+Port: 5432, the Postgres default. If you installed more than one Postgres version or use Docker, it may be 5433 or another port. Use the same port you used in the other window.
+Database: sql_course. This is the key field. Your current connection uses postgres, which is why the tables look gone.
+Username: usually postgres unless you created a different role.
+Use password: pick Ask on connect (or Save as plaintext, which is convenient but stored unencrypted in your settings). Enter the password you set when installing Postgres.
+
+Each  CTE needs to be connected to the main select
+can use multiple columns in order by, separate with column
+
+remember, cannot use an aggregation in a where clause, such as 'demand_count' which is a count()
+
+Have to use 'having after group by
